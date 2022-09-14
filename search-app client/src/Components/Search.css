@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.search-div{
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 100%;
+    height: 14vh;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.search-div h1{
+    margin-right: 2rem;
+    color: white;
+    font-family: 'Edu QLD Beginner', cursive;
+}
+
+.search-bar{
+    padding: 0.8rem 1rem;
+    width: 20vw;
+    border-radius: 0.7rem;
+    font-size: 1.2rem;
+    
+}
+
+.grid-container{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows:  1fr 1fr 1fr; */
+    row-gap: 2rem;
+    column-gap: 1.5rem;
+}
+
+.grid-item{
+    box-sizing: border-box;
+    padding: 1rem;
+    box-shadow: 5px 10px #c4b8b8;
+    /* border: 1px solid black; */
+    height: auto;
+    background-color: #f6f6f6;
+    border-radius: 10px ;
+}
+
+.centerText{
+    text-align: center;
+}
+
+.heading{
+    font-size: 1.5rem;
+}
+
+.primarytext{
+    font-size: 0.9rem;
+    margin: 1rem 0rem;
+    font-weight: 600;
+}
+
+.description{
+    font-size: 0.8rem;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+.grid-item img{
+    height: 26vh;
+    width: 100%;
+    margin-bottom: 0.4rem;
+}
+
+.grid-item a{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    padding-top: 0.2rem;
+    font-weight: 700;
+}
+
+.grid-item a:hover{
+    background-color: white;
+    color: black;
+}
